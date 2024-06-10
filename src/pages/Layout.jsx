@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import Foursection from "../components/foursection"
+
 
 
 function Layout() {
@@ -9,8 +9,7 @@ function Layout() {
     <>
        <Navbar />
       <main>
-        <Outlet />
-        <Foursection />
+        <Outlet />        
       </main>
       <Footer />
     </>
