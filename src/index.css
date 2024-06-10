@@ -22,6 +22,6 @@
 
 .font-inconsolata {
   padding-block-start: 1rem;
-  font-family: inconsolata;
-  font-style: inherit;
+  font-family: "Inconsolata", monospace;
+
 }

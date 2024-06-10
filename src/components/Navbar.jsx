@@ -4,20 +4,18 @@ import minimø from "../assets/minimø.png"
 
 function Navbar() {
   return (
-    <div className='flex flex-row justify-between my-5 mx-5 fixed top-0 z-50  relative '>
+    <div className='flex flex-row justify-between items-center py-4 fixed w-full bg-white'>
       
-      <div className='w-[30%]  '>
-    
-        <img src={minimø} alt="minimo" className='ml-20 ' />
-     
-     
+      <div className='flex flex-start'>
+        {/* <img src={minimø} alt="minimo" className='ml-20 ' /> */}
+        <h1 className='ml-20 font-inconsolata capitalize tracking-widest text-4xl mx-5'>MINIMØ</h1>
       </div>
 
-      <div className='w-[60%] flex flex-row justify-around  text-zinc-500 font-bold'>
-            <div>LIFESTYLE</div>
-            <div>PHOTODIARY</div>
-            <div>MUSIC</div>
-            <div>TRAVEL</div>
+      <div className='flex flex-row flex-end justify-around text-zinc-500 font-bold'>
+            <div className='font-playfair mx-5 font-light'>LIFESTYLE</div>
+            <div className='font-playfair mx-5 font-light'>PHOTODIARY</div>
+            <div className='font-playfair mx-5 font-light'>MUSIC</div>
+            <div className='font-playfair mx-5 font-light'>TRAVEL</div>
       </div>
 
 

@@ -3,18 +3,18 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="flex flex-row min-h-2.5 w-full justify-between bg-zinc-100">
+      <div className="flex flex-row min-h-2.5 w-full justify-between bg-zinc-100 px-20">
         
         {/* labels bar left */}
         <div className='flex flex-row items-center justify-center py-4'>
-          <p className='font-playfair mx-5'>Terms and conditions</p>
-          <p className='font-playfair mx-5'>Privacy</p>
+          <p className='font-playfair font-semibold ml-20'>Terms and conditions</p>
+          <p className='font-playfair font-semibold mx-5'>Privacy</p>
         </div>
 
         {/* Iconbar-right */}
         <div className='flex flex-row items-center justify-center py-4 bg-zinc-100'>
 
-          <p className='font-playfair mx-5 mb-3'>Follow</p>
+          <p className='font-playfair font-semibold mx-5 mb-3'>Follow</p>
           {/* Facebook icon */}
           <div className='flex flex-col h-6 my-2 mx-3 justify-center'>
             <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

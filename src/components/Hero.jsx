@@ -6,6 +6,7 @@ function Hero() {
 
  <div className="px-24">
       <img className="w-full" src={image} alt="Hero image" />
+      
         <div className="mt-10 px-32">
             <p className="text-neutral-500 mb-10 font-thin">PHOTODIARY</p>
             <p className="text-neutral-600 mb-10 text-3xl font-bold font-playfair">The perfect weekend getaway</p>
