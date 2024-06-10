@@ -4,8 +4,11 @@ export default {
    "./index.html",
    "./src/**/*.{js,ts,jsx,tsx}",
      ],
-   theme: {
-     extend: {},
+     extend: { 
+      // fontFamily: { 
+      //     "inconsolata": ['inconsolata', 'sans-serif'] 
+      // }
+      
    },
    variants: {
      fill: ['hover', 'focus'], // this line does the trick
