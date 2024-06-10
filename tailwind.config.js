@@ -1,18 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+ /** @type {import('tailwindcss').Config} */
+ export default {
   content: [
-   "./index.html",
-   "./src/**/*.{js,ts,jsx,tsx}",
-     ],
-     extend: { 
-      // fontFamily: { 
-      //     "inconsolata": ['inconsolata', 'sans-serif'] 
-      // }
-      
-   },
-   variants: {
-     fill: ['hover', 'focus'], // this line does the trick
-   },
-   plugins: [],
- }
-
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}

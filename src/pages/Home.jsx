@@ -1,8 +1,11 @@
-import React from 'react'
+import Newsletter from "../components/Newsletter"
 
 function Home() {
   return (
+    <>
     <div>Home</div>
+    <Newsletter />
+    </>
   )
 }
 
