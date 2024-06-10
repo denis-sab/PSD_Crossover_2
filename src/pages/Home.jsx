@@ -8,9 +8,9 @@ function Home() {
     <>
     <div>
       <Hero/>
-      <AboutUs/>
-      <Foursection />
+      <Foursection/>
       <Newsletter />
+      <AboutUs/>
     </div>
     </>
   )
