@@ -5,12 +5,13 @@ import Navbar from "../components/Navbar"
 
 
 
+
 function Layout() {
   return (
     <>
        <Navbar />
       <main>
-        <Outlet />
+        <Outlet />        
       </main>
       <Footer />
     </>
