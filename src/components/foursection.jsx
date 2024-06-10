@@ -25,7 +25,7 @@ function Foursection() {
         <div className="w-full">
           <img src={Cloth} alt="A person seen from the back dressed for cold weather" />
           <h4>A day exploring the Alps</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt quisquam architecto accusantium odio! Porro magnam tempore magni nihil facere? Expedita at quos cupiditate corrupti quas voluptatibus, voluptatum animi aperiam?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt quisquam architecto accusantium odio! Porro magnam tempore magni nihil facere? Expedita at quos cupiditate corrupti quas voluptatibus, voluptatum animi aperiamd?</p>
         </div>
       </div>
     </div>
