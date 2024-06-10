@@ -3,11 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <>
-<<<<<<< HEAD
-      <div className="flex flex-row min-h-2.5 w-full justify-between bg-zinc-100 px-20">
-=======
+
       <div className="flex flex-row min-h-2.5 w-full justify-between bg-stone-100 ">
->>>>>>> 7443797d3befd76e0348dd72e30299769c791bac
+
         
         {/* labels bar left */}
         <div className='flex flex-row items-center justify-center py-4'>
