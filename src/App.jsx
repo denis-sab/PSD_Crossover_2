@@ -1,8 +1,9 @@
-
 import {Routes, Route} from "react-router-dom"
 import Layout from "./pages/Layout"
 import Home from "./pages/Home"
 import './App.css'
+import Footer from "./components/Footer"
+
 
 function App() {
 
