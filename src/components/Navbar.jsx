@@ -4,7 +4,7 @@ import minimø from "../assets/minimø.png"
 
 function Navbar() {
   return (
-    <div className='flex flex-row justify-between items-center py-4 fixed w-full bg-white'>
+    <div className='flex flex-row justify-between items-center py-4 fixed w-full pr-20 bg-white'>
       
       <div className='flex flex-start'>
         {/* <img src={minimø} alt="minimo" className='ml-20 ' /> */}
